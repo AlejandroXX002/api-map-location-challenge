@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin="" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Frontend Mentor | IP Address Tracker</title>
+  </head>
+
+  <body>
+    <div class="direction-container">
+      <div>IP ADDRESS TRACKER</div>
+      <form id="ipInput" method="POST">
+        <input type="text" id="locationInput" name="name" placeholder="Search for any IP address or domain">
+        <button type="submit" name="submit" value="submit">
+          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="14">
+            <path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6" />
+          </svg>
+        </button>
+      </form>
+    </div>
+
+    <div id="mapid"></div>
+
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""></script>
+    <script src="script.js"></script>
+  </body>
+
+</html>
