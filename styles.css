@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+}
+
+#mapid {
+	height: 70vh;
+	width: 100vw;
+}
+
+.direction-container {
+	margin: 0;
+	height: 30vh;
+	width: 100vw;
+	background: url("images/pattern-bg.png");
+}
